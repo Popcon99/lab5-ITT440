@@ -2,7 +2,7 @@ import socket
 
 s=socket.socket()
 port=8888
-
+ 
 s.connect(('192.168.78.7' , port))
 
 data = s.recv(1024)
